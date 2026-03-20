@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>IEEE Xplore - Temporarily Unavailable</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    html {
+      font-family: 'Helvetica Neue Bold', sans-serif
+    }
+    body {
+      margin: 0;
+    }
+    ul {
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+    }
+
+    ul a {
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      padding-right: 1rem;
+    }
+    ul li:not(:first-child) a {
+      padding-left: 1rem;
+    }
+    ul li:not(:last-child) a {
+      border-right: 1px solid white;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      background-color: #17445A;
+      height: 35px;
+      padding-left: 1rem;
+      overflow: auto;
+    }
+    ul a.ieee-xplore {
+      color: #E4A42C
+    }
+    header {
+      display: flex;
+      background-color: #14303e;
+      height: 72px;
+      align-items: center;
+    }
+
+    .ieee-logo {
+      background-image: url('https://ieeeshutpages.s3-us-west-2.amazonaws.com/xplore/assets/img/ieee_logo_white.svg');
+      background-size: cover;
+      width: 125px;
+      height: 35px;
+      margin-left: auto;
+      margin-right: 1rem;
+    }
+
+    .xplore-logo {
+      margin-left: 1rem;
+      background-image: url('https://ieeeshutpages.s3-us-west-2.amazonaws.com/xplore/assets/img/xplore_logo_white.svg');
+      background-size: cover;
+      width: 175px;
+      height: 35px;
+    }
+
+    .container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .shutpage-background {
+      max-width: 1680px;
+      width: 100%;
+      background-image: url('https://ieeeshutpages.s3-us-west-2.amazonaws.com/xplore/assets/img/xplore-shutpage-bg.png');
+      background-size: cover;
+      height: 350px;
+
+    }
+    .text {
+      padding-top: 5rem;
+      padding-left: 1rem;
+    }
+    h1 {
+      font-size: 3rem;
+      color: white;
+      margin: 0;
+    }
+    .text p {
+      font-size: 1.25rem;
+      color: white;
+    }
+    a {
+      color: #51C4FD;
+    }
+    .copy-right {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .copy-right p {
+      margin: 0;
+      max-width: 1680px;
+      width: 100%;
+      font-size: .75rem;
+      padding-top: 0.5rem;
+      padding-left: 1rem;
+      font-family: sans-serif;
+    }
+
+    @media only screen and (max-width: 700px) {
+      .shutpage-background {
+        height: 70vh;
+      }
+    }
+
+  </style>
+</head>
+<nav>
+   <ul class="">
+    <li>
+      <a href="https://www.ieee.org/">IEEE.org</a>
+    </li>
+    <li>
+      <a class="ieee-xplore" href="https://ieeexplore.ieee.org">IEEE <i>Xplore</i></a>
+    </li>
+    <li>
+      <a href="https://standards.ieee.org/">IEEE-SA</a>
+    </li>
+    <li>
+      <a href="https://spectrum.ieee.org/">IEEE Spectrum</a>
+    </li>
+    <li>
+      <a href="https://www.ieee.org/sitemap.html">More Sites</a>
+    </li>
+  </ul>
+</nav>
+<header>
+  <a href="https://ieeexplore.ieee.org"><div class="xplore-logo"></div></a>
+  <div class="ieee-logo"></div>
+</header>
+<body>
+  <div class="container">
+    <section class="shutpage-background">
+      <div class="text">
+        <h1>IEEE <i>Xplore</i> is temporarily unavailable</h1>
+        <p>We are working to restore service as soon as possible. Please try again later or email questions to <a
+            href="mailto:onlinesupport@ieee.org">onlinesupport@ieee.org</a>.<br>We apologize for the inconvenience and appreciate your patience.</p>
+      </div>
+    </section>
+  </div>
+</body>
+<footer class="copy-right"><p><span>©</span> Copyright <span id="copyright-year"></span> IEEE - All rights reserved.</p></footer>
+
+<script>
+  let year = new Date().getFullYear();
+  let dom = document.getElementById("copyright-year");
+  if (dom) {
+    dom.innerHTML = year;
+  }
+</script>
+</html>

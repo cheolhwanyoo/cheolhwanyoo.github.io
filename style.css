@@ -485,6 +485,7 @@ a:hover {
 .pub-type.conference { background-color: #56AFD7; }
 .pub-type.journal { background-color: #FF7043; }
 .pub-type.registered { background-color: #56AFD7; }
+.pub-type.applied { background-color: #FF9800; }
 
 /* Inline [paper] / [code] links */
 .pub-link-inline {
