@@ -424,8 +424,9 @@ a:hover {
   align-items: flex-start;
 }
 .pub-thumb {
-  width: 200px;
+  width: 200px !important;
   min-width: 200px;
+  max-width: 200px;
   max-height: 140px;
   height: auto;
   border-radius: 4px;
