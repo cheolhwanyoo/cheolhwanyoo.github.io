@@ -418,6 +418,21 @@ a:hover {
 }
 
 /* Thumbnail layout */
+.research-item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+.research-video {
+  width: 200px !important;
+  min-width: 200px;
+  max-width: 200px;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+}
+.research-text {
+  flex: 1;
+}
 .pub-item.has-thumb {
   display: flex;
   gap: 20px;
