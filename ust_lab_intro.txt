@@ -1,0 +1,40 @@
+[연구실 소개]
+
+1. 연구실 소개
+ETRI 로봇파운데이션모델연구실 소속으로, "보고, 이해하고, 행동하는 AI"를 만드는 것이 연구실의 목표입니다. 이미지와 텍스트를 함께 처리하는 Vision-Language Model(VLM)을 설계하고, 나아가 로봇이 언어 지시를 이해하여 스스로 행동을 계획하는 Vision-Language-Action(VLA) 기술을 연구하고 있습니다. 또한, 이러한 멀티모달 AI 기술을 의료 및 헬스케어 영역에 응용하여, 자폐 스펙트럼 장애(ASD) 등 발달장애의 조기 선별을 지원하는 연구도 활발히 진행 중입니다. 연구 성과는 MICCAI, ICCV 등 세계적 학술대회에서 발표하고 있으며, 동시에 ETRI 국책 과제를 통해 실용화를 추진합니다.
+
+2. 최근 대표 논문
+(1) CH Yoo, JH Yoo, J Jang, "CARE-VL: A Domain-Specialized Vision-Language Model for Early ASD Screening," MICCAI, 2025.
+(2) CH Yoo, JH Yoo, MK Back, WJ Wang, YG Shin, "A Unified Framework to Stereotyped Behavior Detection for Screening Autism Spectrum Disorder," Pattern Recognition Letters, 2024.
+(3) CH Yoo, JH Yoo, HW Kim, BO Han, "Pointing Gesture Recognition via Self-Supervised Regularization for ASD Screening," ICCVW, 2023.
+
+3. 연구 분야
+(a) Vision-Language Model (VLM) -- 도메인 특화 시각-언어 모델 학습, Visual Question Answering
+(b) Vision-Language-Action (VLA) -- 언어 지시 기반 로봇 행동 계획, Embodied AI
+(c) 영상 기반 행동 분석 -- 제스처 인식, 반복 행동 분류, 감정 변화 검출, 시선 추정
+(d) 의료 AI -- ASD 조기 선별, 의료 영상 분석
+
+4. 연구 환경
+- GPU 서버 (NVIDIA A6000/RTX 계열, 128GB+ RAM) 다수 보유
+- ETRI 로봇 파운데이션 모델 연구 인프라 활용 가능
+- 등록금 전액, 생활비, 4대 보험, 학회 출장비 지원
+- 근무지: ETRI 본원 (대전 유성구)
+
+5. 문의
+유철환 교수 | ch.yoo@etri.re.kr | https://cheolhwanyoo.github.io
+이력서, 자기소개서, 성적증명서를 첨부하여 이메일로 연락 바랍니다. 문의도 환영합니다.
+
+
+[신입생 연구활동계획]
+
+1. 연구 주제
+(a) VLM 기반 멀티모달 추론 -- 시각-언어 모델을 활용한 도메인 특화 추론 및 시각적 질의응답 기술
+(b) VLA 기반 로봇 행동 생성 -- 자연어 지시를 이해하고 자율적으로 행동을 계획하는 로봇 지능 기술
+(c) 영상 기반 행동 인식 및 의료 AI -- 인간 행동 패턴 분석을 통한 발달장애 조기 선별 기술
+
+2. 연구 활동 계획
+- 주간 논문 세미나: 학생이 주도하여 최신 연구를 발표하고 토론 (교수 참여)
+- 주간 연구 미팅: 각자 진행 중인 연구를 공유하고 방향성을 논의 (교수 참여)
+- 논문 투고: 연구 결과를 CVPR, ICCV, MICCAI 등 국제 학술대회 및 SCI급 저널에 제출
+- 과제 참여: ETRI 로봇 파운데이션 모델 과제에 직접 참여하여 실무 경험 축적
+- 수시 상담: 연구, 진로 등 주제에 관계없이 자유롭게 상담

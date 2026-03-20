@@ -416,6 +416,36 @@ a:hover {
   animation: none;
   opacity: 1;
 }
+
+/* Thumbnail layout */
+.pub-item.has-thumb {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+.pub-thumb {
+  width: 200px;
+  min-width: 200px;
+  max-height: 140px;
+  height: auto;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+  object-fit: contain;
+}
+.pub-item.has-thumb .pub-text {
+  flex: 1;
+}
+@media (max-width: 600px) {
+  .pub-item.has-thumb {
+    flex-direction: column;
+  }
+  .pub-thumb {
+    width: 100%;
+    min-width: unset;
+    max-height: 180px;
+    object-fit: contain;
+  }
+}
 .pub-item:last-child {
   border-bottom: none;
 }
