@@ -420,13 +420,13 @@ a:hover {
 /* Thumbnail layout */
 .research-item {
   display: flex;
-  gap: 20px;
+  gap: 28px;
   align-items: flex-start;
 }
 .research-video {
-  width: 200px !important;
-  min-width: 200px;
-  max-width: 200px;
+  width: 320px !important;
+  min-width: 320px;
+  max-width: 320px;
   border-radius: 4px;
   border: 1px solid #e0e0e0;
 }
